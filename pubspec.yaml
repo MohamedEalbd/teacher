@@ -19,7 +19,7 @@ publish_to: "none" # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
-  sdk: ^3.5.3
+  sdk: ^3.6.0
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -55,6 +55,8 @@ dependencies:
   intl_phone_field: ^3.0.1
   percent_indicator: ^4.0.1
   smooth_page_indicator: ^1.2.0+3
+  logger: ^2.5.0
+  flutter_secure_storage: ^9.2.4
   flutter_localizations:
     sdk: flutter
 
